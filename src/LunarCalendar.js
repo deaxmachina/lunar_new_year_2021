@@ -100,7 +100,7 @@ const LunarCalendar = () => {
       .append("circle")
         .attr("r", moonRadius)
         .attr("fill", moonColour)
-        .attr("filter", "url(#glow)")
+        //.attr("filter", "url(#glow)")
     // append path to moon circle to outline the current moon phase
     const moonsPath = moonsG  
       .append("path")

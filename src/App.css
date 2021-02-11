@@ -49,12 +49,14 @@ body {
   animation:move-twink-back 200s linear infinite;
 }
 
+/*
 .clouds{
     background:transparent url(images/clouds.png) repeat top center;
     z-index:2;
     opacity: .4;
     animation:move-clouds-back 200s linear infinite;
 }
+*/
 
 
 /****************** Text ********************/
@@ -100,4 +102,5 @@ h1 {
   padding: 0;
   margin: 0;
   position: relative;
+  padding-bottom: 50px;
 }

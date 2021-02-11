@@ -243,7 +243,7 @@ const Moon = () => {
       .attr("opacity", 0)
     nodes.append("circle")
       .attr("r", mochiRadius)
-      .attr("fill", (d, i) => i%3 == 0 ? whiteMochi : colorScale[i])
+      .attr("fill", (d, i) => i%4 == 0 ? whiteMochi : colorScale[i])
     nodes.append("line")
       .attr("stroke", mochiFace)
       .attr("y1", -2).attr("y2", 0)
